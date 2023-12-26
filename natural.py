@@ -1,6 +1,4 @@
 num = int(input("Enter your number:"))
-i = 1
-while i <= 5:
-    i += 1
-    print(i, end=" ")
-                
+
+for i in range (1, num+1):
+    print(i, end=" ,")
